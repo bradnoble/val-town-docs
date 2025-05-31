@@ -21,6 +21,11 @@ Crons can be configured with [cron syntax](https://en.wikipedia.org/wiki/Cron), 
 
 Functions can run up to once every 15 minutes, or [once a minute, with the Pro plan](https://www.val.town/pricing).
 
+:::note[Crons in Remixed Vals]
+
+When you Remix a Val with a cron, the cron may return to the 1 hr default interval for crons on Val Town. If that's not what you want, edit the interval in the cron file in your Remix.
+
+
 ## Type Signature
 
 Crons take an `Interval` object as a parameter, and can return anything as a result. The return value is ignored.
